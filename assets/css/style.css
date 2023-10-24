@@ -166,6 +166,10 @@ h2{
 
 .card-img-container>img{
     width: 100%;
+    transition: all .5s;
+}
+.card-product:hover > .card-img-container>img{
+    transform: scale(1.2);
 }
 .card-texto{
     border-radius: 1rem;
